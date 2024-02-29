@@ -1,0 +1,38 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hwb(212 84% 6%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 5% 38%;
+    background-color: var(--Light-gray);
+    overflow-x: hidden;
+}
+body > main {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: var(--White);
+}
+body > main > img {
+    width: 100%;
+    border-radius: 4px;
+}
+body > main > h2 {
+    margin-block: 20px;
+    color: var(--Dark-blue);
+}
+body > main > p {
+    margin-block: 10px;
+    color: var(--Grayish-blue);
+}

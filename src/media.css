@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px) {
+  body {
+    padding: 45% 10%;
+  }
+  body > main > :is(:not(img)) {
+    margin-inline: 7%;
+  }
+  body > main > p {
+    margin-top: 40px;
+    }
+}
